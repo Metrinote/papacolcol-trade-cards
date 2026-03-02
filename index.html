@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PapaColCol Trade Cards</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #050505;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #d4a017;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 320px;
+  }
+  a {
+    display: block;
+    padding: 16px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: opacity 0.15s;
+  }
+  a:hover { opacity: 0.9; }
+  .alert-link {
+    background: linear-gradient(135deg, #d4a017, #b8860b);
+    color: #000;
+  }
+  .recap-link {
+    background: linear-gradient(135deg, #333, #222);
+    color: #d4a017;
+    border: 1px solid #2a2510;
+  }
+</style>
+</head>
+<body>
+  <h1>PapaColCol</h1>
+  <div class="cards">
+    <a href="papacolcol-trade-alert.html" class="alert-link">Trade Alert</a>
+    <a href="papacolcol-trade-recap.html" class="recap-link">Trade Recap</a>
+  </div>
+</body>
+</html>
